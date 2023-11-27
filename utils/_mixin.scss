@@ -1,0 +1,8 @@
+@mixin animation-icone{
+    transition: transform 0.3s;
+        &:hover {
+          -ms-transform: scale(1.1);
+          -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+        }
+}
